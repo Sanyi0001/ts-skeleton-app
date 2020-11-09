@@ -6,7 +6,8 @@
         "noImplicitReturns": true,
         "removeComments": true,
         "outFile": "build/app.js",
-        "noEmitOnError": true
+        "noEmitOnError": true,
+        "lib": ["es6", "dom", "es2017"]
     },
     "include": [
         "src/**/*"
